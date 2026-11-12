@@ -9,4 +9,4 @@ createRoot(document.getElementById('root')!).render(
 {/*<MyNombreCompletoApp/>*/}
     </StrictMode>,
 )
-// Quede en el video 43 por hacer
+// quede en 44 hacer!

@@ -1,5 +1,18 @@
 import ProductoCarrito from "./mini-merca/ProductoCarrito";
 
+interface ProductoNombre {
+    nompbreProducto: string;
+    cantidad: number;
+}
+
+const productoNombre: ProductoNombre[] = [
+    {nompbreProducto: 'Chinchulin', cantidad: 4},
+    {nompbreProducto: 'Chaparro', cantidad: 2},
+    {nompbreProducto: 'Chancleta', cantidad: 8},
+    {nompbreProducto: 'Chiflette', cantidad: 1},
+];
+
+
 export function PrimerComponenteApp() {
    return(
     <>
@@ -17,9 +30,17 @@ export function PrimerComponenteApp() {
 
 
     <h1>CARRITO DE COMPRAS!</h1>
+
+    {
+        productoNombre.map(( {nompbreProducto, cantidad} ) => (
+            < ProductoCarrito key={nompbreProducto} producto={nompbreProducto} cantidad= {cantidad} />
+        )
+    )}
+
     <ProductoCarrito producto="Algarroba" cantidad= {3} />
     <ProductoCarrito producto="Ferroquina" cantidad= {1} />
     <ProductoCarrito producto="Ajenjo " cantidad= { 1 } />
+    
     </>
    );
 }
