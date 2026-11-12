@@ -6,6 +6,7 @@ import { MyNombreCompletoApp, PrimerComponenteApp } from './PrimerComponente'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
 <PrimerComponenteApp/>
-<MyNombreCompletoApp/>
+{/*<MyNombreCompletoApp/>*/}
     </StrictMode>,
 )
+// Quede en el video 43 por hacer

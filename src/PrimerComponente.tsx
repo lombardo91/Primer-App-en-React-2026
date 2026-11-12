@@ -1,3 +1,4 @@
+import ProductoCarrito from "./mini-merca/ProductoCarrito";
 
 export function PrimerComponenteApp() {
    return(
@@ -13,6 +14,12 @@ export function PrimerComponenteApp() {
         </h2>
     </div>
     
+
+
+    <h1>CARRITO DE COMPRAS!</h1>
+    <ProductoCarrito producto="Algarroba" cantidad= {3} />
+    <ProductoCarrito producto="Ferroquina" cantidad= {1} />
+    <ProductoCarrito producto="Ajenjo " cantidad= { 1 } />
     </>
    );
 }
