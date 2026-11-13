@@ -1,0 +1,10 @@
+.clase-producto{
+        display: flex;
+        align-Items: center;
+        gap: 10px;
+        margin-Top: 10px;
+};
+
+.clase-nombre {
+   width: 300px;
+};

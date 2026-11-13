@@ -9,4 +9,7 @@ createRoot(document.getElementById('root')!).render(
 {/*<MyNombreCompletoApp/>*/}
     </StrictMode>,
 )
-// quede en 44 hacer!
+
+
+
+// Termine la seccion num 4, la 5 es testing.. la safo.. paso a la v6 =)
